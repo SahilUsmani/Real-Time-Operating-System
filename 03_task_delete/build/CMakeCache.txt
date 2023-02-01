@@ -18,6 +18,9 @@
 03_task_delete_BINARY_DIR:STATIC=/home/training/sahil/RTOS/03_task_delete/build
 
 //Value Computed by CMake
+03_task_delete_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
 03_task_delete_SOURCE_DIR:STATIC=/home/training/sahil/RTOS/03_task_delete
 
 //No help, variable specified on the command line.
@@ -121,7 +124,7 @@ CMAKE_EXE_LINKER_FLAGS_RELEASE:STRING=
 CMAKE_EXE_LINKER_FLAGS_RELWITHDEBINFO:STRING=
 
 //Enable/Disable output of compile commands during generation.
-CMAKE_EXPORT_COMPILE_COMMANDS:BOOL=OFF
+CMAKE_EXPORT_COMPILE_COMMANDS:BOOL=
 
 //User executables (bin)
 CMAKE_INSTALL_BINDIR:PATH=bin
@@ -320,7 +323,7 @@ LINK_WITH_TRUSTED_STORAGE:BOOL=OFF
 MBEDTLS_FATAL_WARNINGS:BOOL=ON
 
 //No help, variable specified on the command line.
-PYTHON:UNINITIALIZED=/home/training/.espressif/python_env/idf5.1_py3.8_env/bin/python
+PYTHON:UNINITIALIZED=/home/training/.espressif/python_env/idf5.1_py3.10_env/bin/python
 
 //No help, variable specified on the command line.
 PYTHON_DEPS_CHECKED:UNINITIALIZED=1
@@ -338,10 +341,16 @@ USE_STATIC_MBEDTLS_LIBRARY:BOOL=ON
 esp-idf_BINARY_DIR:STATIC=/home/training/sahil/RTOS/03_task_delete/build/esp-idf
 
 //Value Computed by CMake
+esp-idf_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
 esp-idf_SOURCE_DIR:STATIC=/home/training/esp/esp-idf
 
 //Value Computed by CMake
 mbed TLS_BINARY_DIR:STATIC=/home/training/sahil/RTOS/03_task_delete/build/esp-idf/mbedtls/mbedtls
+
+//Value Computed by CMake
+mbed TLS_IS_TOP_LEVEL:STATIC=OFF
 
 //Value Computed by CMake
 mbed TLS_SOURCE_DIR:STATIC=/home/training/esp/esp-idf/components/mbedtls/mbedtls
@@ -384,9 +393,9 @@ CMAKE_CACHEFILE_DIR:INTERNAL=/home/training/sahil/RTOS/03_task_delete/build
 //Major version of cmake used to create the current loaded cache
 CMAKE_CACHE_MAJOR_VERSION:INTERNAL=3
 //Minor version of cmake used to create the current loaded cache
-CMAKE_CACHE_MINOR_VERSION:INTERNAL=16
+CMAKE_CACHE_MINOR_VERSION:INTERNAL=22
 //Patch version of cmake used to create the current loaded cache
-CMAKE_CACHE_PATCH_VERSION:INTERNAL=3
+CMAKE_CACHE_PATCH_VERSION:INTERNAL=1
 //Path to CMake executable.
 CMAKE_COMMAND:INTERNAL=/usr/bin/cmake
 //Path to cpack program executable.
@@ -511,7 +520,7 @@ CMAKE_RANLIB-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_READELF
 CMAKE_READELF-ADVANCED:INTERNAL=1
 //Path to CMake installation.
-CMAKE_ROOT:INTERNAL=/usr/share/cmake-3.16
+CMAKE_ROOT:INTERNAL=/usr/share/cmake-3.22
 //ADVANCED property for variable: CMAKE_SHARED_LINKER_FLAGS
 CMAKE_SHARED_LINKER_FLAGS-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_SHARED_LINKER_FLAGS_DEBUG
@@ -545,9 +554,9 @@ CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
 //Test C_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS
 C_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS:INTERNAL=1
 //Details about finding Git
-FIND_PACKAGE_MESSAGE_DETAILS_Git:INTERNAL=[/usr/bin/git][v2.25.1()]
+FIND_PACKAGE_MESSAGE_DETAILS_Git:INTERNAL=[/usr/bin/git][v2.34.1()]
 //Details about finding Python3
-FIND_PACKAGE_MESSAGE_DETAILS_Python3:INTERNAL=[/home/training/.espressif/python_env/idf5.1_py3.8_env/bin/python][cfound components: Interpreter ][v3.8.10()]
+FIND_PACKAGE_MESSAGE_DETAILS_Python3:INTERNAL=[/home/training/.espressif/python_env/idf5.1_py3.10_env/bin/python][cfound components: Interpreter ][v3.10.6()]
 //ADVANCED property for variable: GIT_EXECUTABLE
 GIT_EXECUTABLE-ADVANCED:INTERNAL=1
 //Have include stddef.h
@@ -562,10 +571,8 @@ HAVE_TIME_T_SIZE:INTERNAL=TRUE
 TIME_T_SIZE:INTERNAL=8
 //CMAKE_INSTALL_PREFIX during last run
 _GNUInstallDirs_LAST_CMAKE_INSTALL_PREFIX:INTERNAL=/usr/local
-//ADVANCED property for variable: _Python3_EXECUTABLE
-_Python3_EXECUTABLE-ADVANCED:INTERNAL=1
-_Python3_EXECUTABLE:INTERNAL=/home/training/.espressif/python_env/idf5.1_py3.8_env/bin/python
-//ADVANCED property for variable: _Python3_INTERPRETER_SIGNATURE
-_Python3_INTERPRETER_SIGNATURE-ADVANCED:INTERNAL=1
-_Python3_INTERPRETER_SIGNATURE:INTERNAL=c7dd8af2d48a6e7f82cdde894d6c776d
+_Python3_EXECUTABLE:INTERNAL=/home/training/.espressif/python_env/idf5.1_py3.10_env/bin/python
+//Python3 Properties
+_Python3_INTERPRETER_PROPERTIES:INTERNAL=Python;3;10;6;32;;;/usr/lib/python3.10;/usr/lib/python3.10;/home/training/.espressif/python_env/idf5.1_py3.10_env/lib/python3.10/site-packages;/home/training/.espressif/python_env/idf5.1_py3.10_env/lib/python3.10/site-packages
+_Python3_INTERPRETER_SIGNATURE:INTERNAL=2b0efaa710a20bea712b80bd254bba06
 
